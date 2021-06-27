@@ -132,4 +132,21 @@ __help__ = """
 /music <i>query</i>: download song from yt servers. (API BASED) 
 /lyrics <i>song name</i> : This plugin searches for song lyrics with song name.
 /glyrics <i> song name </i> : This plugin searches for song lyrics with song name and artist.
+
+**=>> Commands for Song Playing 🎧**
+- /play: Play the requestd song
+- /play [yt url] : Play the given yt url
+- /play [reply yo audio]: Play replied audio
+- /dplay: Play song via deezer
+- /splay: Play song via jio saavn
+- /ytplay: Directly play song via Youtube Music
+
+**=>> Playback ⏯**
+- /player: Open Settings menu of player
+- /skip: Skips the current track
+- /pause: Pause track
+- /resume: Resumes the paused track
+- /end: Stops media playback
+- /current: Shows the current Playing track
+- /playlist: Shows playlist
 """
