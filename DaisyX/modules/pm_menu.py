@@ -44,9 +44,9 @@ def help_markup(modules):
     return markup
 
 
-STICKERS = (
-    "",
-)
+
+
+
 
 
 @register(cmds="start", no_args=True, only_groups=True)
