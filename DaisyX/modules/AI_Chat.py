@@ -126,7 +126,7 @@ async def hmm(_, message):
             await lel.edit("Daisy AI Was Not Activated In This Chat")
             return
         await lel.edit(
-            f"Daisy AI Successfully Deactivated For Users In The Chat {message.chat.id}"
+            f"Satoru's AI Successfully Deactivated For Users In The Chat {message.chat.id}"
         )
 
     elif status == "EN" or status == "en" or status == "english":
