@@ -58,7 +58,7 @@ async def start_group_cmd(message, strings):
 
 @register(cmds="start", no_args=True, only_pm=True)
 async def start_cmd(message):
-    await message.reply_sticker(random.choice(STICKERS))
+
     await get_start_func(message)
 
 
@@ -83,7 +83,7 @@ async def get_start_func(message, strings, edit=False):
     )
     buttons.add(
         InlineKeyboardButton(
-            "👸🏼 Add DaisyX to your group",
+            "👸🏼 Add Satouru Gojo to your group",
             url=f"https://telegram.me/daisyxbot?startgroup=true",
         )
     )
